@@ -1,0 +1,24 @@
+[
+  {
+    "desc": "员工管理业务场景",
+    "add_emp_body": {
+      "username": "mikejiang",
+      "mobile": "13344445555",
+      "timeOfEntry": "2021-08-02",
+      "formOfEmployment": 1,
+      "workNumber": "001",
+      "departmentName": "偷偷学习组",
+      "departmentId": "1422400509205118976",
+      "correctionTime": "2021-08-30T16:00:00.000Z"
+    },
+    "modify_emp_body": {
+      "username": "yyds"
+    },
+    "expect_result": {
+      "status_code": 200,
+      "success": true,
+      "code": 10000,
+      "message": "操作成功"
+    }
+  }
+]
